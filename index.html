@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#170d25">
+<title>For My Whole World ✨</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+:root{--bg:#100b19;--panel:#1d1329;--pink:#ff8eb7;--rose:#ff5d91;--cream:#fff0e9;--muted:#cdb9cc;--gold:#f6d49b}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -20%,#4b2148 0%,var(--bg) 52%);color:var(--cream);font-family:'DM Sans',sans-serif;min-height:100vh;overflow-x:hidden}button{font:inherit;cursor:pointer}.hidden{display:none!important}.screen{min-height:100svh;display:flex;align-items:center;justify-content:center;padding:24px}.shell{width:min(100%,880px);margin:auto}.eyebrow{letter-spacing:.24em;text-transform:uppercase;font-size:.7rem;color:var(--gold)}h1,h2,h3,.serif{font-family:'Cormorant Garamond',serif;font-weight:500}h1{font-size:clamp(3rem,10vw,6.4rem);line-height:.91;margin:18px 0}h2{font-size:clamp(2.3rem,7vw,4.2rem);line-height:1;margin:12px 0 20px}p{line-height:1.85;color:#f0dfe9}.muted{color:var(--muted)}.glass{background:linear-gradient(145deg,rgba(255,255,255,.09),rgba(255,255,255,.025));border:1px solid rgba(255,210,230,.2);box-shadow:0 25px 90px #0005,inset 0 1px #ffffff16;backdrop-filter:blur(16px);border-radius:28px}.login-card{max-width:460px;text-align:center;padding:clamp(28px,7vw,54px);position:relative;overflow:hidden}.orb{width:92px;height:92px;margin:0 auto 22px;border-radius:50%;display:grid;place-items:center;font-size:2.6rem;background:radial-gradient(circle at 35% 25%,#ffcada,#ff6499 55%,#7e285f);box-shadow:0 0 60px #ff5d9155;animation:float 3s ease-in-out infinite}.field{width:100%;margin:9px 0;padding:15px 16px;border-radius:14px;border:1px solid #ffffff28;background:#100b19aa;color:white;outline:none}.field:focus{border-color:var(--pink);box-shadow:0 0 0 3px #ff8eb71c}.btn{border:0;border-radius:999px;padding:14px 22px;font-weight:700;transition:transform .2s,filter .2s;display:inline-flex;justify-content:center;align-items:center;gap:9px}.btn:hover{filter:brightness(1.08);transform:translateY(-2px)}.primary{background:linear-gradient(120deg,#ffb0c9,#ff5d91);color:#351023;box-shadow:0 9px 28px #ff5d9133}.secondary{background:#ffffff0b;border:1px solid #ffffff35;color:var(--cream)}.wide{width:100%;margin-top:12px}.tiny{font-size:.78rem;color:#bda9bd}.error{color:#ffb0c9;min-height:24px;font-size:.88rem}.topline{display:flex;justify-content:space-between;gap:12px;align-items:center;margin-bottom:22px}.pill{border:1px solid #ffffff2b;border-radius:999px;padding:8px 12px;color:#f7ccdf;font-size:.8rem}.hero{text-align:center;padding:clamp(28px,7vw,70px) 0}.hero .sub{font-size:clamp(1rem,3vw,1.25rem);max-width:660px;margin:22px auto}.sparkle{color:var(--gold)}.divider{height:1px;background:linear-gradient(90deg,transparent,#ff9abf88,transparent);margin:28px 0}.gift{max-width:600px;margin:38px auto 0;padding:24px;text-align:center}.gift button{margin-top:14px}.timeline{position:relative;max-width:720px;margin:34px auto}.timeline:before{content:"";position:absolute;left:22px;top:10px;bottom:10px;width:1px;background:linear-gradient(#ff9abb,#f6d49b55,transparent)}.event{position:relative;margin:0 0 18px 48px;padding:22px 24px}.event:before{content:"";position:absolute;left:-33px;top:28px;width:11px;height:11px;border-radius:50%;background:var(--pink);box-shadow:0 0 0 6px #ff8eb71a}.date{font-size:.75rem;text-transform:uppercase;letter-spacing:.16em;color:var(--gold)}.event h3{font-size:1.7rem;margin:7px 0}.event p{margin:0}.note{padding:24px;border-radius:20px;background:#ff8eb70b;border:1px solid #ff8eb727;margin:24px 0}.navrow{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:28px}.choice-wrap{position:relative;display:flex;flex-wrap:wrap;gap:12px;justify-content:center;margin:28px 0 8px;min-height:60px}.choice-wrap .btn{min-width:145px}.soul-button{width:94px;height:94px;border:0;border-radius:50%;font-size:2.7rem;background:linear-gradient(145deg,#ffb0c9,#ff4f89);box-shadow:0 0 0 12px #ff8eb711,0 0 55px #ff5d9155;animation:soulbeat 1.7s infinite}.journey-button{position:relative;width:116px;height:116px;border:1px solid #ffe5b5;border-radius:50%;font-size:1.7rem;font-weight:700;letter-spacing:.08em;color:#4a1737;background:radial-gradient(circle at 35% 25%,#fff6d8 0%,#ffd2df 35%,#ff8eb7 70%,#b94780 100%);box-shadow:0 0 0 7px #ffb4d31c,0 0 0 12px #f6d49b12,0 0 48px #ff8eb788,inset 0 0 18px #fff9d8;animation:portalPulse 2.4s ease-in-out infinite;isolation:isolate}.journey-button:before,.journey-button:after{content:"";position:absolute;inset:-11px;border:1px solid #f6d49b99;border-radius:42% 58% 55% 45%;animation:orbitSpin 8s linear infinite;z-index:-1}.journey-button:after{inset:-18px;border-color:#ff8eb766;border-radius:55% 45% 42% 58%;animation-direction:reverse;animation-duration:11s}.journey-button span{display:block;font-size:.58rem;letter-spacing:.12em;margin-top:4px;color:#6d2b50}.portal-caption{font-size:.78rem;letter-spacing:.08em;color:#f7ccdf;text-transform:uppercase;margin-top:20px}.portal-wrap{display:flex;flex-direction:column;align-items:center;padding:10px 0 18px}.journey-button:hover{filter:brightness(1.1);transform:scale(1.05)}.final-card{padding:clamp(24px,6vw,52px);text-align:center}.final-message{white-space:pre-line;font-size:1.03rem}.confetti{position:fixed;top:-20px;z-index:99;pointer-events:none;animation:fall linear forwards;filter:drop-shadow(0 2px 5px #ff5d9155)}.floating-soul{position:fixed;bottom:-30px;pointer-events:none;z-index:0;animation:rise linear forwards}.content{position:relative;z-index:1}.footer{text-align:center;color:#9e849d;font-size:.75rem;padding:30px 10px}.smallprint{font-size:.76rem;color:#bca9bb}
+@keyframes float{50%{transform:translateY(-8px)}}@keyframes portalPulse{0%,100%{transform:scale(1);box-shadow:0 0 0 7px #ffb4d31c,0 0 0 12px #f6d49b12,0 0 38px #ff8eb766,inset 0 0 18px #fff9d8}50%{transform:scale(1.045);box-shadow:0 0 0 9px #ffb4d329,0 0 0 17px #f6d49b18,0 0 58px #ff8eb7aa,inset 0 0 22px #fff9d8}}@keyframes orbitSpin{to{transform:rotate(360deg)}}@keyframes soulbeat{0%,100%{transform:scale(1)}12%{transform:scale(1.08)}24%{transform:scale(1)}}@keyframes fall{to{transform:translateY(110vh) rotate(720deg);opacity:.2}}@keyframes rise{to{transform:translateY(-110vh) rotate(30deg);opacity:0}}
+@media(min-width:700px){.timeline:before{left:50%;transform:translateX(-50%)}.event{width:calc(50% - 38px);margin-left:0}.event:nth-child(odd){margin-right:auto;text-align:right}.event:nth-child(even){margin-left:calc(50% + 38px)}.event:before{left:auto;right:-45px}.event:nth-child(even):before{left:-45px;right:auto}}
+</style>
+</head>
+<body>
+<main class="content">
+<section id="login" class="screen">
+ <div class="shell glass login-card">
+  <div class="orb">JS</div>
+  <div class="eyebrow">a birthday wish, made just for you</div>
+  <h2>Your Day, Your Magic ✨</h2>
+  <p class="muted">A little birthday world made for the girl who makes life more beautiful. Enter your special key to begin. 🎂💖</p>
+  <form id="loginForm">
+   <input id="password" class="field" type="password" autocomplete="off" placeholder="Enter your special key" aria-label="Birthday key" required>
+   <button class="btn primary wide" type="submit">Open your birthday surprise ✨</button>
+  </form>
+  <div id="loginError" class="error" role="status"></div>
+  <div class="tiny">A little surprise for your 24th birthday 🎀</div>
+ </div>
+</section>
+
+<section id="birthday" class="screen hidden">
+ <div class="shell">
+  <div class="topline"><span class="pill">24th Birthday ✨</span><span class="pill">20 October · Made for you</span></div>
+  <div class="hero glass">
+   <div class="eyebrow">today, the universe celebrates you</div>
+   <h1>To My Favourite Person,<br><span style="color:var(--pink)">My Whole Universe</span> <span class="sparkle">✧</span></h1>
+   <p class="sub">En vaalvin anbirku iniya piranthanaal vaalthukal😍<br><strong>Life long happy iru Ma,</strong><br>Keep shining and stay the same beautiful soul you are💖✨<br>Nee Aasai pandrathu ethuva irunthalum nadakkum ♥️</p>
+   <div class="divider"></div>
+   <div style="font-size:2rem">✦ ✧ ♡ ✧ ✦</div>
+   <div class="glass gift">
+    <div class="eyebrow">one tiny gift, one big feeling</div>
+    <h2 style="font-size:2.6rem">Here is your birthday gift 🎁</h2>
+    <p class="muted">Ithu unaku pudikavum seiyalam… pudikamalum polam. Aana idhula irukura ovvoru word-um manasula irundhu vandhadhu. 💌</p>
+    <button class="btn primary" onclick="go('story'); celebrate(45)">Open your gift <span>↗</span></button>
+   </div>
+  </div>
+ </div>
+</section>
+
+<section id="story" class="screen hidden">
+ <div class="shell">
+  <div class="topline"><span class="pill">Chapter 01 · Our timeline</span><span class="pill">From 2017 to now ♡</span></div>
+  <div class="hero" style="padding-bottom:0">
+   <div class="eyebrow">some moments stay forever</div>
+   <h2>Our little story <span style="color:var(--pink)">✧</span></h2>
+   <p class="muted">Sila moments-ku periya words thevai illa… nyabagam irundha podhum. 😇</p>
+  </div>
+  <div class="timeline">
+   <article class="event glass"><div class="date">February 2017</div><h3>The first time I noticed you</h3><p>First time unna naan kavanichadhu Feb 2017 — almost 9 years of love. Appo irundhu ippo varaikkum, en manasula unakku oru thani idam irukku ma. One-side love-ah irundhaalum, nee enakku eppovume enna vaarthai solli describe panrathunu theriyala… en thangatha describe panna puthu word dhaan kandupidikkanum pola 🙃❤️</p></article>
+   <article class="event glass"><div class="date">A story I kept inside</div><h3>Words I was afraid to say</h3><p>Neriya time sollanum-nu nenachen. Aana unna mulusa izhandhuruveno-nu bayandhu sollama irundhen. Sollavum try panni rejection-um vaanginen. Adhellathaiyum thaandi, life-la unnai again and again choose panninen. ❤️</p></article>
+   <article class="event glass"><div class="date">September 15</div><h3>Our first meet-up</h3><p>Unna nerla paatha andha moment… solla vandha vaarthaigal ellam enga pochu-nu theriyala. 😇</p></article>
+   <article class="event glass"><div class="date">September 26</div><h3>Our second meet-up</h3><p>Innum konjam pesalaam-nu nenachen. Aana en thangatha paathale vaarthaigal vara maattengudhu. Enna pandradhu? 🥹</p></article>
+   <article class="event glass"><div class="date">October 7</div><h3>Our third meet-up</h3><p>Moonu meet-up aanaalum, unna paakumbodhu enakku innum andha same nervous smile dhaan. Sila feelings-ai explain panna mudiyadhu; feel panna mattum dhaan mudiyum. ✨</p></article>
+  </div>
+  <div class="note"><div class="eyebrow">a little pause before the next chapter</div><p>Indha timeline oru beginning dhaan. Innum solla vendiya sila vishayangal irukku… adha therinjikka indha little star-ai touch pannunga. ✨</p><div class="portal-wrap"><button class="journey-button" aria-label="Unlock the next chapter" onclick="go('promise'); celebrate(90)">✦<span>UNLOCK</span></button><div class="portal-caption">Enter the next chapter ✨</div></div></div>
+  <div class="navrow"><button class="btn secondary" onclick="go('birthday')">← Birthday page</button><button class="btn primary" onclick="go('promise'); celebrate(50)">Continue our story →</button></div>
+ </div>
+</section>
+
+<section id="promise" class="screen hidden">
+ <div class="shell">
+  <div class="topline"><span class="pill">Chapter 02 · From me</span><span class="pill">Just for you ✨</span></div>
+  <div class="hero glass" style="padding:clamp(25px,6vw,55px)">
+   <div class="eyebrow">a wish that comes from deep within</div><h2><span style="color:var(--pink)">Happy Birthday, En Azhage</span> 💖<br><span style="font-size:.72em">Indha Naal Unakkaga, En Thangam</span> ✨🥹</h2>
+   <p>Unkitta enakku alavu paathu ellam pazhaga theriyala… alavillaama dhaan pazhaguven. Pudicha iru, pudikkalanaalum iru. 😇</p>
+   <p>Unakku theriyadhu nee enakku evlo pudikkum, evlo important-nu. Ennaala ellathaiyum explain panna mudiyama irukkalaam. Nee sirichalum nesippen, veruthaalum nesippen. ❤️</p>
+   <p>Life full-ah nee kashtame padaama paathuppen-nu enakku theriyala ma. Vaazhkaiyila ellarukkum kashtam varalaam. Aana appadi oru neram vandhaalum, kandippa naan un kooda iruppen; unakkaaga nippen ma. Enna situation-a irundhaalum, dhairiyama enna nambalam ma. Nee eppadi patta anbooda sondhakaari-nu unakke theriyalaya? ✨🤍</p>
+   <p>Unnoda life-la, un sandhoshathulayum sogathulayum enakkum paadhi edam kuduppiya? 🙂</p>
+   <div class="divider"></div>
+   <div class="eyebrow">choose what you feel</div>
+   <h3 style="font-size:2rem">Can I have a little place in your happiness and sadness? 🥹</h3>
+   <div class="choice-wrap" id="choices">
+    <button class="btn primary" onclick="go('yes'); celebrate(90)">Kudupen 😊</button>
+    <button class="btn secondary" onclick="go('think')">Illa, mudiyathu 😕</button>
+   </div>
+   <p class="smallprint">No pressure, just a little honest question from me. ♡</p>
+  </div>
+  <div class="navrow"><button class="btn secondary" onclick="go('story')">← Back to our timeline</button></div>
+ </div>
+</section>
+
+<section id="think" class="screen hidden">
+ <div class="shell glass final-card">
+  <div style="font-size:3rem">🥺💗</div><div class="eyebrow">wait… one tiny second</div>
+  <h2>Avlo seekirama vitturuvenaa? 😌</h2>
+  <p>Nalla yosi, click pannuma 🙂<br>Un answer edhuva irundhaalum, un feelings-ku value irukku. Aana innum oru option paakalaama?</p>
+  <div class="choice-wrap"><button class="btn primary" onclick="go('yes'); celebrate(90)">Seri, ok kudukuren 🙃</button><button id="runaway" class="btn secondary">Illa, mudiyathu…</button></div>
+  <p class="smallprint">Psst… that second button is a little shy. 🙈</p>
+  <button class="btn secondary" onclick="go('promise')">← Back</button>
+ </div>
+</section>
+
+<section id="yes" class="screen hidden">
+ <div class="shell glass final-card">
+  <div class="eyebrow">the words I wanted you to hear</div>
+  <div style="font-size:3rem">💖✨🫀</div>
+  <h2><span style="color:var(--pink)">Happy Porandhanal,</span><br>En Thangam 😍💖</h2>
+  <div class="final-message">
+Life full-ah nee kashtame padaama paathuppen-nu enakku theriyala ma. Vaazhkaiyila ellarukkum kashtam varalaam. Aana appadi oru neram vandhaalum, kandippa naan un kooda iruppen; unakkaaga nippen ma. Enna situation-a irundhaalum, dhairiyama enna nambalam ma — nee eppadi patta anbooda sondhakaari-nu unakke theriyalaya? ✨
+
+Naa ithu varaikkum ennoda life-la “promise” indra vaarthaiya use pannadhe illa; andha vaarthaikku avlo mathippu kuduthirukken. Unakku ippo solren — endha time-la, endha situation-la irundhaalum, unakkaaga naan iruppen ma. ✨
+
+Life-la eppovum yaarukkaagavum ethukkaagavum unnai naan vittu kudukka maaten ma. Unakku nee mukkiyam. Naan un pakkathula irundhu support panna try pannuven. 💚
+
+Again solluren, ennaala unna paakura maari vera yaaraiyum kandippa paaka mudiyathu ma. 🫀
+
+En thangatha en kolandha maari care, love, respect kudupen. Unakku enna pudikkum, pudikkaathu-nu ippo enakku ellaame theriyama irukkalaam; aana unnai purinjikittu, un viruppangalai therinjikittu, unakku thevaiyaana anbu ellathaiyum kudukka try pannuven. 💫💙
+  </div>
+  <div class="divider"></div>
+  <p class="muted">There’s one last little thing waiting for you…</p>
+  <div class="portal-wrap"><button class="journey-button" onclick="document.getElementById('lastNote').classList.remove('hidden'); celebrate(140); this.classList.add('hidden')" aria-label="Reveal the final birthday message">✦<span>REVEAL</span></button><div class="portal-caption">Your final little surprise</div></div>
+  <div id="lastNote" class="note hidden">
+   <div style="font-size:2.5rem">😊🌙✨</div>
+   <h2 style="font-size:2.6rem">One last birthday wish…</h2>
+   <p>Unakku onnu theriyuma? You can't blink your eye while smile… 😉💗</p>
+   <p>Unnoda indha amaidhiyaana, azhagaana sirippa pola, unnoda life-um eppovum sandhoshama irukkanum-nu naan vendikkiren ma. ✨♥️</p>
+   <h3 style="font-size:2rem;color:var(--pink)">Keep smiling, my favourite soul. 💖</h3>
+   <button class="btn primary" onclick="go('world'); celebrate(180)">Celebrate again 🎉</button>
+  </div>
+  <div class="navrow"><button class="btn secondary" onclick="go('promise')">← Back</button><button class="btn secondary" onclick="go('birthday')">Replay from the beginning ↻</button></div>
+ </div>
+</section>
+<section id="world" class="screen hidden">
+ <div class="shell glass final-card world-card">
+  <div class="eyebrow">for the girl who means my world</div>
+  <div class="birthday-crown">✦ 🎂 ✦</div>
+  <h1 class="world-title">Happy birthday<br><span>my World</span> ♥️🌍✨</h1>
+  <p class="world-copy">Indha ulagathula unakku kidaikka vendiya sandhosham, anbu, amaidhi ellame un vaazhkai full-ah niraiya kidaikkanum ma. Nee aasai padradhellam nadakkanum; un sirippu eppovum ippadiye azhaga irukkanum. 💖</p>
+  <div class="birthday-lights">✧ ✨ 🎀 ✨ ✧</div>
+  <p class="world-copy">Un 24th birthday unakku marakka mudiyadha azhagana memories-oda start aagattum. Keep shining, keep smiling, and always remember how special you are. 🥹💫</p>
+  <button class="btn primary" onclick="celebrate(200)">More birthday magic ✨</button>
+  <div class="navrow" style="justify-content:center"><button class="btn secondary" onclick="go('birthday')">Relive your surprise ↻</button></div>
+ </div>
+</section>
+<style>
+.world-card{position:relative;overflow:hidden;background:radial-gradient(ellipse at 50% 0%,#7c2857aa,#1d1329 58%);border-color:#ffb0c966}
+.world-card:before,.world-card:after{content:"✦ ✧ · ✨ · ✧ ✦";position:absolute;left:0;width:100%;color:#ffd8a5;letter-spacing:.8em;opacity:.55;pointer-events:none}
+.world-card:before{top:18px}.world-card:after{bottom:18px}
+.birthday-crown{font-size:3rem;margin:20px 0;animation:float 2.5s ease-in-out infinite}
+.world-title{font-size:clamp(3.5rem,12vw,7rem);line-height:.9;margin:20px 0}
+.world-title span{background:linear-gradient(100deg,#ffe8bd,#ff9abb,#fff0e9);-webkit-background-clip:text;background-clip:text;color:transparent}
+.world-copy{max-width:650px;margin:24px auto;font-size:1.08rem}
+.birthday-lights{font-size:2rem;letter-spacing:.3em;margin:28px 0;animation:float 3s ease-in-out infinite}
+</style>
+<div class="footer">A tiny website for a very special birthday · made with ♡</div>
+</main>
+<script>
+/*
+  DEMO BIRTHDAY KEY:
+  Enter JS in any letter case.
+  This front-end gate is for a playful surprise, not secure authentication.
+*/
+const SECRET_KEY = "js";
+const loginForm = document.getElementById("loginForm");
+loginForm.addEventListener("submit", function(e){
+ e.preventDefault();
+ const key = document.getElementById("password").value.trim().toLowerCase();
+ if(key === SECRET_KEY){
+  document.getElementById("loginError").textContent = "";
+  go("birthday"); celebrate(60);
+ } else {
+  document.getElementById("loginError").textContent = "Secret key match aagala ma 😇 Try again.";
+  document.getElementById("password").value = "";
+ }
+});
+function go(id){
+ document.querySelectorAll("section.screen").forEach(s=>s.classList.add("hidden"));
+ const target=document.getElementById(id);
+ if(target){target.classList.remove("hidden");window.scrollTo({top:0,behavior:"smooth"});}
+}
+function celebrate(amount=60){
+ const symbols=["💖","💕","♥","✨","🌸","💗","🎉","✦"];
+ for(let i=0;i<amount;i++){
+  const el=document.createElement("span");el.className=Math.random()>.45?"confetti":"floating-soul";
+  el.textContent=symbols[Math.floor(Math.random()*symbols.length)];
+  el.style.left=Math.random()*100+"vw";
+  el.style.fontSize=(14+Math.random()*22)+"px";
+  el.style.animationDuration=(3+Math.random()*4)+"s";
+  el.style.opacity=.55+Math.random()*.45;
+  document.body.appendChild(el);
+  setTimeout(()=>el.remove(),7500);
+ }
+}
+const runaway=document.getElementById("runaway");
+function moveRunaway(){
+ const parent=runaway.parentElement;
+ const maxX=Math.max(0,parent.clientWidth-runaway.offsetWidth);
+ const maxY=90;
+ runaway.style.position="relative";
+ runaway.style.left=(Math.random()*maxX-maxX/2)+"px";
+ runaway.style.top=(Math.random()*maxY-maxY/2)+"px";
+}
+runaway.addEventListener("mouseenter",moveRunaway);
+runaway.addEventListener("touchstart",function(e){e.preventDefault();moveRunaway();},{passive:false});
+runaway.addEventListener("click",function(e){e.preventDefault();moveRunaway();});
+</script>
+</body>
+</html>
